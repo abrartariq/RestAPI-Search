@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package logProto;
+
+service logProcessor {
+  rpc GetLog(sRequest) returns (rResponse){}
+}
+
+message sRequest{
+  string startTime = 1;
+  string deltaTime = 2;
+  string rPattern = 3;
+}
+
+message rResponse{
+  int32 statusCode = 1;
+  string responseVal = 2;
+}

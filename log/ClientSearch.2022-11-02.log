@@ -1,0 +1,27 @@
+18:25:38.242 [main] INFO  ClientSearch$ - Login Begins
+18:25:38.515 [main] INFO  ClientSearch$ - Sending Request
+18:25:39.515 [main] INFO  ClientSearch$ - Getting Response
+18:27:54.882 [main] INFO  ClientSearch$ - Login Begins
+18:27:55.156 [main] INFO  ClientSearch$ - Sending Request
+18:27:55.156 [main] INFO  ClientSearch$ - Parameters
+18:27:55.156 [main] INFO  ClientSearch$ - Start Time
+18:27:55.157 [main] INFO  ClientSearch$ - End Time
+18:27:55.157 [main] INFO  ClientSearch$ - Pattern
+18:27:55.157 [main] INFO  ClientSearch$ - Optional FileName
+18:27:55.670 [main] INFO  ClientSearch$ - Getting Response
+18:28:19.052 [main] INFO  ClientSearch$ - Login Begins
+18:28:19.324 [main] INFO  ClientSearch$ - Sending Request
+18:28:19.324 [main] INFO  ClientSearch$ - Parameters
+18:28:19.325 [main] INFO  ClientSearch$ - Start Time
+18:28:19.325 [main] INFO  ClientSearch$ - End Time
+18:28:19.325 [main] INFO  ClientSearch$ - Pattern
+18:28:19.325 [main] INFO  ClientSearch$ - Optional FileName
+18:28:19.856 [main] INFO  ClientSearch$ - Getting Response
+18:28:37.085 [main] INFO  ClientSearch$ - Login Begins
+18:28:37.357 [main] INFO  ClientSearch$ - Sending Request
+18:28:37.357 [main] INFO  ClientSearch$ - Parameters
+18:28:37.357 [main] INFO  ClientSearch$ - Start Time 03:03:34.998
+18:28:37.357 [main] INFO  ClientSearch$ - End Time 03:19:55.598
+18:28:37.357 [main] INFO  ClientSearch$ - Pattern (.*?)
+18:28:37.357 [main] INFO  ClientSearch$ - Optional FileName 
+18:28:37.856 [main] INFO  ClientSearch$ - Getting Response

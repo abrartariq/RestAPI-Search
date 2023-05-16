@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 31 products, 10 sources, 15 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/target/scala-2.13/src_managed/main/scalapb/logProto/log/LogProto.scala, ${BASE}/src/main/scala/GrpcSearch/grpcClient.scala, ${BASE}/src/main/scala/GrpcSearch/grpcServer.scala, ${BASE}/src/main/scala/RestApi/RestClient.scala, ${BASE}/target/scala-2.13/src_managed/main/scalapb/logProto/log/logProcessorGrpc.scala, ${BASE}/target/scala-2.13/src_managed/main/scalapb/logProto/log/rResponse.scala, ${BASE}/src/main/scala/ClientSearch.scala, ${BASE}/src/main/scala/HelperUtils/CreateLogger.scala, ${BASE}/src/main/scala/LocalSearch/ClientSearch.scala, ${BASE}/target/scala-2.13/src_managed/main/scalapb/logProto/log/sRequest.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m

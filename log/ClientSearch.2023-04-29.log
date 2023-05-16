@@ -1,0 +1,68 @@
+09:35:01.653 [sbt-bg-threads-1] INFO  GrpcSearch.grpcServer$ - Starting Server at 127.0.0.1:50051
+09:35:02.280 [shutdownHook1] WARN  GrpcSearch.grpcServer - Terminating Server
+09:35:45.954 [sbt-bg-threads-1] INFO  GrpcSearch.grpcServer$ - Starting Server at 127.0.0.1:50051
+09:35:46.601 [shutdownHook1] WARN  GrpcSearch.grpcServer - Terminating Server
+09:36:49.081 [sbt-bg-threads-1] INFO  LocalSearch.ClientSearch$ - Login Begins
+09:36:49.185 [sbt-bg-threads-1] INFO  LocalSearch.ClientSearch$ - local Search With Parameters
+09:36:49.186 [sbt-bg-threads-1] INFO  LocalSearch.ClientSearch$ - Start Time 03:11:45.298
+09:36:49.188 [sbt-bg-threads-1] INFO  LocalSearch.ClientSearch$ - End Time 03:15:45.298
+09:36:49.188 [sbt-bg-threads-1] INFO  LocalSearch.ClientSearch$ - Pattern (.*?)
+09:36:49.188 [sbt-bg-threads-1] INFO  LocalSearch.ClientSearch$ - Optional FileName 
+09:36:49.221 [sbt-bg-threads-1] INFO  LocalSearch.ClientSearch$ - List Print = 0,1 d51b4a14b931c7ce75307e02e0af8771
+09:37:19.052 [sbt-bg-threads-1] INFO  GrpcSearch.grpcServer$ - Starting Server at 127.0.0.1:50051
+09:37:19.679 [shutdownHook1] WARN  GrpcSearch.grpcServer - Terminating Server
+14:36:39.957 [sbt-bg-threads-1] INFO  GrpcSearch.grpcServer$ - Starting Server at 127.0.0.1:50051
+14:36:40.583 [shutdownHook1] WARN  GrpcSearch.grpcServer - Terminating Server
+14:54:32.342 [sbt-bg-threads-1] INFO  GrpcSearch.grpcServer$ - Starting Server at 127.0.0.1:55551
+14:55:45.994 [sbt-bg-threads-1] INFO  GrpcSearch.grpcClient$ - Starting Client and connecting at localhost:55551
+14:55:46.342 [sbt-bg-threads-1] INFO  GrpcSearch.grpcClient - Creating Request
+14:55:46.347 [sbt-bg-threads-1] INFO  GrpcSearch.grpcClient - Sending Request
+14:55:46.348 [sbt-bg-threads-1] INFO  GrpcSearch.grpcClient - Start Time 03:13:45.298
+14:55:46.348 [sbt-bg-threads-1] INFO  GrpcSearch.grpcClient - Delta Time 00:02:00.000
+14:55:46.348 [sbt-bg-threads-1] INFO  GrpcSearch.grpcClient - Pattern (.*?)
+14:55:46.625 [grpc-default-executor-0] INFO  GrpcSearch.grpcServer - Sending Request With Parameters
+14:55:46.626 [grpc-default-executor-0] INFO  GrpcSearch.grpcServer - Start Time 03:11:45.298
+14:55:46.626 [grpc-default-executor-0] INFO  GrpcSearch.grpcServer - End Time 03:15:45.298
+14:55:46.626 [grpc-default-executor-0] INFO  GrpcSearch.grpcServer - Pattern (.*?)
+14:55:47.085 [grpc-default-executor-0] INFO  RestApi.RestClient$ - https://4waphqtr8c.execute-api.us-east-2.amazonaws.com/test/files?sTime=03:11:45.298&eTime=03:15:45.298&rPattern=(.*?)&fileName=
+14:55:47.989 [grpc-default-executor-0] INFO  RestApi.RestClient$ - Getting Response Sttp
+14:55:47.989 [grpc-default-executor-0] INFO  RestApi.RestClient$ - Message Code 200
+14:55:47.990 [grpc-default-executor-0] INFO  RestApi.RestClient$ - Right("Hash of Messages = d51b4a14b931c7ce75307e02e0af8771")
+14:55:47.991 [grpc-default-executor-0] INFO  GrpcSearch.grpcServer - Sening Response Back to Client
+14:55:48.016 [sbt-bg-threads-1] INFO  GrpcSearch.grpcClient - ResponseCode Client : 200
+14:55:48.017 [sbt-bg-threads-1] INFO  GrpcSearch.grpcClient - Response Client: Right("Hash of Messages = d51b4a14b931c7ce75307e02e0af8771")
+14:58:22.375 [sbt-bg-threads-1] INFO  RestApi.RestClient$ - Logging Begins
+14:58:22.387 [sbt-bg-threads-1] INFO  RestApi.RestClient$ - Sending Request With Parameters
+14:58:22.388 [sbt-bg-threads-1] INFO  RestApi.RestClient$ - Start Time 03:11:45.298
+14:58:22.390 [sbt-bg-threads-1] INFO  RestApi.RestClient$ - End Time 03:15:45.298
+14:58:22.391 [sbt-bg-threads-1] INFO  RestApi.RestClient$ - Pattern (.*?)
+14:58:22.391 [sbt-bg-threads-1] INFO  RestApi.RestClient$ - Optional FileName 
+14:58:22.762 [sbt-bg-threads-1] INFO  RestApi.RestClient$ - Getting Response
+14:58:23.256 [sbt-bg-threads-1] INFO  RestApi.RestClient$ - Status code: 200 OK
+14:58:23.263 [sbt-bg-threads-1] INFO  RestApi.RestClient$ - Logging Ends
+14:58:23.263 [default-akka.actor.default-dispatcher-4] INFO  RestApi.RestClient$ - Response Body: "Hash of Messages = d51b4a14b931c7ce75307e02e0af8771"
+14:58:51.347 [sbt-bg-threads-1] INFO  RestApi.RestClient$ - Logging Begins
+14:58:51.349 [sbt-bg-threads-1] INFO  RestApi.RestClient$ - Sending Request With Parameters
+14:58:51.349 [sbt-bg-threads-1] INFO  RestApi.RestClient$ - Start Time 03:11:45.298
+14:58:51.350 [sbt-bg-threads-1] INFO  RestApi.RestClient$ - End Time 03:15:45.298
+14:58:51.350 [sbt-bg-threads-1] INFO  RestApi.RestClient$ - Pattern (.*?)
+14:58:51.350 [sbt-bg-threads-1] INFO  RestApi.RestClient$ - Optional FileName 
+14:58:51.726 [sbt-bg-threads-1] INFO  RestApi.RestClient$ - Getting Response
+14:58:52.206 [sbt-bg-threads-1] INFO  RestApi.RestClient$ - Status code: 200 OK
+14:58:52.211 [sbt-bg-threads-1] INFO  RestApi.RestClient$ - Logging Ends
+14:58:52.211 [default-akka.actor.default-dispatcher-4] INFO  RestApi.RestClient$ - Response Body: "Hash of Messages = d51b4a14b931c7ce75307e02e0af8771"
+15:03:36.107 [sbt-bg-threads-1] INFO  LocalSearch.ClientSearch$ - Login Begins
+15:03:36.216 [sbt-bg-threads-1] INFO  LocalSearch.ClientSearch$ - local Search With Parameters
+15:03:36.217 [sbt-bg-threads-1] INFO  LocalSearch.ClientSearch$ - Start Time 03:11:45.298
+15:03:36.217 [sbt-bg-threads-1] INFO  LocalSearch.ClientSearch$ - End Time 03:15:45.298
+15:03:36.217 [sbt-bg-threads-1] INFO  LocalSearch.ClientSearch$ - Pattern (.*?)
+15:03:36.217 [sbt-bg-threads-1] INFO  LocalSearch.ClientSearch$ - Optional FileName 
+15:03:36.247 [sbt-bg-threads-1] INFO  LocalSearch.ClientSearch$ - Hash of Message =  d51b4a14b931c7ce75307e02e0af8771
+15:13:08.595 [sbt-bg-threads-1] INFO  LocalSearch.ClientSearch$ - Login Begins
+15:13:08.700 [sbt-bg-threads-1] INFO  LocalSearch.ClientSearch$ - local Search With Parameters
+15:13:08.701 [sbt-bg-threads-1] INFO  LocalSearch.ClientSearch$ - Start Time 03:11:45.298
+15:13:08.701 [sbt-bg-threads-1] INFO  LocalSearch.ClientSearch$ - End Time 03:15:45.298
+15:13:08.701 [sbt-bg-threads-1] INFO  LocalSearch.ClientSearch$ - Pattern (.*?)
+15:13:08.701 [sbt-bg-threads-1] INFO  LocalSearch.ClientSearch$ - Optional FileName 
+15:13:08.731 [sbt-bg-threads-1] INFO  LocalSearch.ClientSearch$ - Hash of Message =  d51b4a14b931c7ce75307e02e0af8771
+15:17:59.139 [shutdownHook1] WARN  GrpcSearch.grpcServer - Terminating Server
