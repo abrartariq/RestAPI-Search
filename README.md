@@ -1,13 +1,7 @@
-# Project 2
+# RestAPI-Search
 
 
 Name = **Muhammad Abrar Tariq**
-
-UIN = **657401195**
-
-Email = **mtariq5@uic.edu**
-
-Video Link = 
 
 ### Link Demonstrating deployment **[Video](https://drive.google.com/drive/folders/1QsBj7ddcb8OfHoBfcEoSnL646vOoiVy-?usp=sharing)**
 
@@ -15,7 +9,7 @@ Video Link =
 
 * Cloning the Project -
  
-```git clone https://github.com/abrar-tariq/CS-441-P2.git```
+```git clone https://github.com/abrartariq/RestAPI-Search```
 
 
       *Install IntelliJ or your preferred IDE. This application was developed using IntelliJ, which is highly recommended for various reasons.
@@ -111,7 +105,7 @@ The Core Functionality is implemented in AWS lambda Function is Written in Pytho
 
 
 ## Setup and Execution
-1. Clone the project using `git clone https://github.com/abrar-tariq/CS-441-P2.git`
+1. Clone the project using `git clone https://github.com/abrartariq/RestAPI-Search`
 2. Execute `sbt clean compile`
 
 ### REST Client
@@ -137,7 +131,7 @@ The Core Functionality is implemented in AWS lambda Function is Written in Pytho
 ### AWS Deployment
 1. Start an EC2 instance and SSH into it.
 2. Mount an EFS system to your EC2 instance.
-3. Clone the project `git clone https://github.com/abrar-tariq/CS-441-P2.git` or SCP files directly into EFS storage.
+3. Clone the project `git clone https://github.com/abrartariq/RestAPI-Search` or SCP files directly into EFS storage.
 4. Run the BashScript present in [LogGen](LogFileGenerator/runloggen.sh). It will run slower due to direct execution from the EFS system, but this saves extra time from transferring files into S3 or another folder in EFS.
 5. Access your files in the Lambda function by importing OS `os.listdir("/mnt/efsas/")`.
 
